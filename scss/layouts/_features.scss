@@ -1,0 +1,32 @@
+.features {
+    padding: 96px 0 130px 0;
+}
+
+.features-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.features-right {
+    width: 400px;
+}
+
+.section-title--margin {
+    margin-bottom: 20px;
+}
+
+.section-text--margin {
+    margin-bottom: 20px;
+}
+
+.features-list__item {
+    display: flex;
+    align-items: center;
+    &:not(:last-child){
+        margin-bottom: 15px;
+    }
+}
+.features-list__text {
+    margin-left: 12px;
+}

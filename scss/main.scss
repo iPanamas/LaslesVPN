@@ -1,0 +1,20 @@
+//UTILS
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+//BASE
+@import "./base/base-styles";
+
+//COMPONENTS
+@import "./components/container";
+@import "./components/section-title";
+@import "./components/section-text";
+
+//LAYOUT
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/statistic";
+@import "./layouts/features";
+@import "./layouts/plan";
+@import "./layouts/network";
+@import "./layouts/reviews";
